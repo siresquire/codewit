@@ -11,7 +11,7 @@ console.log(name);
 
 
 
-var ref = document.getElementById('app')
+var ref = document.getElementById('pap');
 //ref.innerHTML = '<h1>Hello</h1>'
 //ref.innerHTML = '<input type="text" placeholder="Username">'
 //ref.innerHTML = `
@@ -20,10 +20,10 @@ var ref = document.getElementById('app')
 //    <input type="password" placeholder="Password"><br><br>
 //    <button>Login</button>
 //`
-let template = new Template()
-ref.innerHTML = template.loginView()
+let template = new Template();
+ref.innerHTML = template.loginView();
 
-let loginButton = document.getElementById('login')
+let loginButton = document.getElementById('login');
 console.log(loginButton);
 loginButton.addEventListener('click', function (){
     ref.innerHTML = template.dashboard

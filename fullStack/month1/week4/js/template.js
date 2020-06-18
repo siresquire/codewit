@@ -13,8 +13,6 @@ class Template {
     }
 
     dashboard(){
-        return `
-        <h1>Dashboard, <span>Kojo</span></h1>
-        `
+     `<h1>Dashboard, <span>Kojo</span></h1>`
     }
 }
